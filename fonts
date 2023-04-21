@@ -1,0 +1,8 @@
+import sys
+if sys.version_info.major is 3:
+    import tkinter as Tk, tkinter.font as tkFont
+else:
+    import tkinter as Tk, tkFont
+root = Tk.Tk()
+print(tkFont.families())
+print(tkFont.names())
